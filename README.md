@@ -2,7 +2,8 @@
 This is a project about how the covid-19 has disruptly impacted the global economy and various sectors.
 
 
-                                                              >ABSTRACT<
+                                                     >ABSTRACT<
+                                                          
 The Covid-19 pandemic has caused unprecedented disruptions to 
 the global economy, with far-reaching consequences for businesses, 
 governments, and societies. Understanding the multifaceted impacts of the 
