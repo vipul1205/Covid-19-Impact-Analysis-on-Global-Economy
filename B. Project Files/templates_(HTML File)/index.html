@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Covid-19 Analysis</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../static/style1.css" />
+    </head>
+
+    <body style="background-color:#c1fbc7">
+    <div class="title">
+    <h1 style="color:red " >Covid-19 Analysis</h1>
+    </div>
+    <div class="ip">
+   <form action = "/login" method= "post"
+   <div class="var">
+   <p class="HDI">HDI</p>
+   <p><input type="text" name = "HDI" /></p>
+   <p class="Total Deaths">Total Deaths</p>
+   <p><input type="text" name = "Total Deaths" /></p>
+    <p class="Stringency Index">Stringency Index</p>
+    <p><input type="text" name = "Stringency Index" /></p>
+     <p class="Population">Population</p>
+     <p><input type="text" name = "Population" /></p>
+      <p class="GDP Before Covid">GDP Before Covid</p>
+      <p><input type="text" name = "GDP Before Covid" /></p>
+       <p class="GDP During Covid">GDP During Covid</p>
+       <p><input type="text" name = "GDP During Covid" /></p>
+       </div>  
+       
+
+    <input  class="s" type="submit" value="Submit" style="color:white ;background-color: orange;
+        color: white;
+        height: 70px;
+        width: 200px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        position: relative;
+        left: 40%;
+        border-radius: 5%"; >
+    </form>
+      <div class="prediction">
+      <p>Predicted Output  is:</p>
+      <p>{{y}}</p>
+     </div>
+  </div>
+ 
+  
+
+
+       
+    </body>
+</html>
