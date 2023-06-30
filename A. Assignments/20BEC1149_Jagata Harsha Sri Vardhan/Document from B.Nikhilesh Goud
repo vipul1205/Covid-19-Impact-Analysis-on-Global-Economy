@@ -1,0 +1,269 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": "#NAME-B.NIKHILESH\n#REG NO-20BEC1011",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 1,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "#1\nName=\"Nikhil\"\nprint(Name)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "Nikhil\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "Age=20\nprint(Age)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "20\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#2\nX=\"Datascience is used to extract meaningful insights.\"\ns=X.split(\" \")\ns",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "execution_count": 4,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "['Datascience', 'is', 'used', 'to', 'extract', 'meaningful', 'insights.']"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#3\ndef mult(a,b):\n    return a*b\nmult(15,9)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "execution_count": 5,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "135"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "states={\"TamilNadu\":\"Chennai\",\"Karnataka\":\"Banglore\",\"Telangana\":\"Hyderabad\",\"Rajasthan\":\"Jaipur\",\"UttarPradesh\":\"Lucknow\"}\nstates",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "execution_count": 7,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "{'TamilNadu': 'Chennai',\n 'Karnataka': 'Banglore',\n 'Telangana': 'Hyderabad',\n 'Rajasthan': 'Jaipur',\n 'UttarPradesh': 'Lucknow'}"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#5\nl=list(range(0,1001))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 8,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "import numpy as np",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 9,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "#6\nm=np.identity(4)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 10,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "m",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "execution_count": 11,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "array([[1., 0., 0., 0.],\n       [0., 1., 0., 0.],\n       [0., 0., 1., 0.],\n       [0., 0., 0., 1.]])"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#7\nn=np.arange(1,10).reshape(3,3)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 12,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "n",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "execution_count": 17,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "array([[1, 2, 3],\n       [4, 5, 6],\n       [7, 8, 9]])"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#8\na=np.array([[9,0,8],[4,2,0],[9,5,1]])\nb=np.array([[9,1,0],[6,5,2],[7,2,3]])\nc=a+b\nprint(c)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "[[18  1  8]\n [10  7  2]\n [16  7  4]]\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "import datetime\nimport pandas as pd\n\n",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 14,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "#9\ntest_date = datetime.datetime.strptime(\"01-2-2023\", \"%d-%m-%Y\")\nK = 28\ndate_generated = pd.date_range(test_date, periods=K)\nprint(date_generated.strftime(\"%d-%m-%Y\"))\n\n",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "Index(['01-02-2023', '02-02-2023', '03-02-2023', '04-02-2023', '05-02-2023',\n       '06-02-2023', '07-02-2023', '08-02-2023', '09-02-2023', '10-02-2023',\n       '11-02-2023', '12-02-2023', '13-02-2023', '14-02-2023', '15-02-2023',\n       '16-02-2023', '17-02-2023', '18-02-2023', '19-02-2023', '20-02-2023',\n       '21-02-2023', '22-02-2023', '23-02-2023', '24-02-2023', '25-02-2023',\n       '26-02-2023', '27-02-2023', '28-02-2023'],\n      dtype='object')\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#10\ndictionary = {'Brand': ['Maruti', 'Renault', 'Hyndai'], 'Sales' : [250, 200, 240]}\nd=pd.DataFrame.from_dict(dictionary)\nd",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "execution_count": 16,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "     Brand  Sales\n0   Maruti    250\n1  Renault    200\n2   Hyndai    240",
+            "text/html": "<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>Brand</th>\n      <th>Sales</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>Maruti</td>\n      <td>250</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>Renault</td>\n      <td>200</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>Hyndai</td>\n      <td>240</td>\n    </tr>\n  </tbody>\n</table>\n</div>"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
